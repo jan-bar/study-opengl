@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "cplus_main",
+			"command": "g++",
+			"args": [
+				"-g",
+				"-std=c++17",
+				"-I./glad/include",
+				"-I./glfw/include",
+				"-L./glfw/lib-mingw-w64",
+				"glad/src/glad.c",
+				"${fileBasename}",
+				"-lglfw3dll",
+				"-o",
+				"${workspaceFolder}/main.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "使用g++编译"
+		}
+	]
+}
