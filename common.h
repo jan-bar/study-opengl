@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 inline int CompileShader(const char *source, GLenum shaderType, unsigned int *shader)
 {

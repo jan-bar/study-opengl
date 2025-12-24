@@ -46,6 +46,7 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 
 
 ## go-gl
+* C++ 不太熟,后面教程都用Go完成
 * 在 ./golang 目录下是用go语言编写OpenGL的代码
 ```sh
 # 1. 安装msys2, 参考第一步
