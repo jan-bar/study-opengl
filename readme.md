@@ -1,5 +1,6 @@
 ## LearnOpenGL CN
 * 教程地址: https://learnopengl-cn.github.io
+* 教程代码: https://github.com/JoeyDeVries/LearnOpenGL/tree/master/src
 
 ## C++
 安装msys2: https://www.msys2.org/
@@ -16,7 +17,7 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 ## GLFW
 * 下载预编译好的二进制: https://www.glfw.org/download.html
 * 解压到当前目录的glfw
-* 将 glfw/lib-mingw-w64/glfw3.dll 复制到当前目录
+* 将 **cp glfw/lib-mingw-w64/glfw3.dll .** 复制到当前目录
 
 
 ## GLAD
@@ -33,10 +34,11 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 
 ## vscode
 * 安装扩展:
-	* C/C++ Extension Pack
+	* C/C++ Extension Pack（https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack）
 * 目录结构如下如所示:
 	* ![file-struct](file-struct.png)
 * 调试代码
+	* 在运行和调试中选中 **cplus_main**
 	* 打开要调试的cpp文件(如: 1.getting_started/01-hello-window.cpp),按 F5
 * 编译代码
 	* 打开要编译的cpp文件, Ctrl+Shift+P , 搜索 runtask ,回车后选中 cplus_main 再回车
@@ -46,7 +48,7 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 
 
 ## go-gl
-* C++ 不太熟,后面教程都用Go完成
+* C++ 不太熟，后面教程都用Go完成
 * 在 ./golang 目录下是用go语言编写OpenGL的代码
 ```sh
 # 1. 安装msys2, 参考第一步
