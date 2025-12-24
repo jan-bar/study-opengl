@@ -37,10 +37,10 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 * 目录结构如下如所示:
 	* ![file-struct](file-struct.png)
 * 调试代码
-	* 打开要调试的cpp文件(如: 01-hello-window.cpp),按 F5
+	* 打开要调试的cpp文件(如: 1.getting_started/01-hello-window.cpp),按 F5
 * 编译代码
 	* 打开要编译的cpp文件, Ctrl+Shift+P , 搜索 runtask ,回车后选中 cplus_main 再回车
-	* 或者执行 .\build.bat xxx.cpp
+	* 或者执行 .\build.bat 1.getting_started/01-hello-window.cpp
 * 运行程序
 	* 终端执行: .\main.exe
 
@@ -55,5 +55,5 @@ pacman -S mingw-w64-ucrt-x86_64-gdb
 go get "github.com/go-gl/gl/v4.4-core/gl" "github.com/go-gl/glfw/v3.3/glfw"
 # 4. 执行编译脚本
 cd golang
-.\build.bat 01-hello-window
+.\build.bat 1.getting_started\01-hello-window
 ```
