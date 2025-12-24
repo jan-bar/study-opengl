@@ -59,3 +59,6 @@ go get "github.com/go-gl/gl/v4.4-core/gl" "github.com/go-gl/glfw/v3.3/glfw"
 cd golang
 .\build.bat 1.getting_started\01-hello-window
 ```
+* 在 **goland** 中调试代码
+
+![goland-debug](goland-debug.png)
